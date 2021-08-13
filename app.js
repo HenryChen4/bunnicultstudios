@@ -2,7 +2,7 @@ const express = require("express")
 const hbs = require("hbs")
 const app = express()
 
-const port = process.env.port || 8080
+const port = process.env.PORT || 8080
 
 app.set("view engine", "hbs")
 app.set("views", "")
